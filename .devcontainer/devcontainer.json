@@ -5,18 +5,21 @@
     ],
     "service": "ruby-dev",
     "workspaceFolder": "/WORKDIR",
-    "extensions": [
-        "rebornix.Ruby",
-        "esbenp.prettier-vscode",
-        "formulahendry.code-runner",
-        "groksrc.ruby",
-        "kaiwood.endwise",
-        //"bung87.rails",
-        "castwide.solargraph",
-        "sporto.rails-go-to-spec",
-        "CraigMaslowski.erb",
-        "jduponchelle.rainbow-end",
-        "MS-CEINTL.vscode-language-pack-ja",
-        "oderwat.indent-rainbow"
-    ]
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "rebornix.Ruby",
+                "esbenp.prettier-vscode",
+                "formulahendry.code-runner",
+                "groksrc.ruby",
+                "kaiwood.endwise",
+                //"bung87.rails",
+                "castwide.solargraph",
+                "sporto.rails-go-to-spec",
+                "CraigMaslowski.erb",
+                "jduponchelle.rainbow-end",
+                "oderwat.indent-rainbow"
+            ]
+        }
+    }
 }
