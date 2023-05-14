@@ -6,11 +6,12 @@ services:
         - USER=${USER:-user} # Your User Name
         - USER_ID=${USER_ID:-1000} # Your User ID
         - GROUP_ID=${GROUP_ID:-1000} # Your GROUP ID
-    image: ruby-dev:alpine
+        - DEBIAN_VERSION_NAME=${DEBIAN_VERSION_NAME:-stable} # debian code name
+    image: ruby-dev:debian
     container_name: ruby-dev
     volumes:
       - type: bind
         source: ../
         target: /WORKDIR
     tty: true
-    command: sh
+    command: bash

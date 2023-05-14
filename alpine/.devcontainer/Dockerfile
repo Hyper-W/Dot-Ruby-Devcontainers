@@ -1,4 +1,6 @@
-FROM alpine:latest
+ARG ALPINE_VERSION_NAME=latest
+
+FROM alpine:${ALPINE_VERSION_NAME}
 
 # Your Property
 ARG USER=user
